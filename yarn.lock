@@ -958,20 +958,20 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@salesforce/cli-plugins-testkit@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@salesforce/cli-plugins-testkit/-/cli-plugins-testkit-5.0.4.tgz#523c459f43822d7b24bff5117aeda7f77ed5e26c"
-  integrity sha512-8pquViVBCd5sF6nBXgLgwymEBE6pSAS376R9qq7rxuV+PSFCC5bnzQaKm2ugY+s5vXKNcV6WcmBHNCQnGv+M7Q==
+"@salesforce/cli-plugins-testkit@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@salesforce/cli-plugins-testkit/-/cli-plugins-testkit-5.1.8.tgz#789630cc389c13fe016c7593aa4ac8bbf532e3bd"
+  integrity sha512-3/jvEc+RVWFRbGPtyEzNJ5eb84p7HuLYDZ1EAokLVgDpnW5qy9UpBWrU0Tv98MaQhfRtPdSc/gmzB6m6nqWZLg==
   dependencies:
-    "@salesforce/core" "^5.3.20"
+    "@salesforce/core" "^6.5.1"
     "@salesforce/kit" "^3.0.15"
-    "@salesforce/ts-types" "^2.0.6"
+    "@salesforce/ts-types" "^2.0.9"
     "@types/shelljs" "^0.8.15"
     debug "^4.3.1"
     jszip "^3.10.1"
     shelljs "^0.8.4"
     strip-ansi "6.0.1"
-    ts-retry-promise "^0.7.1"
+    ts-retry-promise "^0.8.0"
 
 "@salesforce/core@^5.3.20":
   version "5.3.20"
@@ -997,10 +997,10 @@
     semver "^7.5.4"
     ts-retry-promise "^0.7.1"
 
-"@salesforce/core@^6", "@salesforce/core@^6.2.0":
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-6.2.2.tgz#c390c7c407e8916ad85a3e300d9d9e4fecfba207"
-  integrity sha512-R2ptk/+KSWDJOqdInxfzPTLF3V//vFtD4vQcjWIK9NaGCCq4ZwiF2gMpkBcKgDQneLUmva2NcmnzF3c51zQp5A==
+"@salesforce/core@^6", "@salesforce/core@^6.2.0", "@salesforce/core@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-6.5.1.tgz#3d387a6f0b93485274ec046dde5cf1364a3a00b0"
+  integrity sha512-u/R82JGdbJCMY0EN3UY5hQUxn0gPN+ParNQIm9YPB9lDpBQv82nKeZJuH6j2LsaaF6ygY3bm79kftPxpdKbggQ==
   dependencies:
     "@salesforce/kit" "^3.0.15"
     "@salesforce/schemas" "^1.6.1"
@@ -1014,9 +1014,9 @@
     jsforce "^2.0.0-beta.29"
     jsonwebtoken "9.0.2"
     jszip "3.10.1"
-    pino "^8.16.2"
+    pino "^8.17.2"
     pino-abstract-transport "^1.1.0"
-    pino-pretty "^10.2.3"
+    pino-pretty "^10.3.1"
     proper-lockfile "^4.1.2"
     semver "^7.5.4"
     ts-retry-promise "^0.7.1"
@@ -1088,7 +1088,7 @@
     chalk "^4"
     inquirer "^8.2.5"
 
-"@salesforce/ts-types@^2.0.6", "@salesforce/ts-types@^2.0.9":
+"@salesforce/ts-types@^2.0.9":
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-2.0.9.tgz#66bff7b41720065d6b01631b6f6a3ccca02857c5"
   integrity sha512-boUD9jw5vQpTCPCCmK/NFTWjSuuW+lsaxOynkyNXLW+zxOc4GDjhtKc4j0vWZJQvolpafbyS8ZLFHZJvs12gYA==
@@ -3959,6 +3959,11 @@ help-me@^4.0.1:
     glob "^8.0.0"
     readable-stream "^3.6.0"
 
+help-me@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/help-me/-/help-me-5.0.0.tgz#b1ebe63b967b74060027c2ac61f9be12d354a6f6"
+  integrity sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==
+
 hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
@@ -6299,12 +6304,32 @@ pino-pretty@^10.2.3:
     sonic-boom "^3.0.0"
     strip-json-comments "^3.1.1"
 
+pino-pretty@^10.3.1:
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-10.3.1.tgz#e3285a5265211ac6c7cd5988f9e65bf3371a0ca9"
+  integrity sha512-az8JbIYeN/1iLj2t0jR9DV48/LQ3RC6hZPpapKPkb84Q+yTidMCpgWxIT3N0flnBDilyBQ1luWNpOeJptjdp/g==
+  dependencies:
+    colorette "^2.0.7"
+    dateformat "^4.6.3"
+    fast-copy "^3.0.0"
+    fast-safe-stringify "^2.1.1"
+    help-me "^5.0.0"
+    joycon "^3.1.1"
+    minimist "^1.2.6"
+    on-exit-leak-free "^2.1.0"
+    pino-abstract-transport "^1.0.0"
+    pump "^3.0.0"
+    readable-stream "^4.0.0"
+    secure-json-parse "^2.4.0"
+    sonic-boom "^3.0.0"
+    strip-json-comments "^3.1.1"
+
 pino-std-serializers@^6.0.0:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.2.2.tgz#d9a9b5f2b9a402486a5fc4db0a737570a860aab3"
   integrity sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==
 
-pino@^8.16.0, pino@^8.16.2:
+pino@^8.16.0:
   version "8.16.2"
   resolved "https://registry.yarnpkg.com/pino/-/pino-8.16.2.tgz#7a906f2d9a8c5b4c57412c9ca95d6820bd2090cd"
   integrity sha512-2advCDGVEvkKu9TTVSa/kWW7Z3htI/sBKEZpqiHk6ive0i/7f5b1rsU8jn0aimxqfnSz5bj/nOYkwhBUn5xxvg==
@@ -6315,6 +6340,23 @@ pino@^8.16.0, pino@^8.16.2:
     pino-abstract-transport v1.1.0
     pino-std-serializers "^6.0.0"
     process-warning "^2.0.0"
+    quick-format-unescaped "^4.0.3"
+    real-require "^0.2.0"
+    safe-stable-stringify "^2.3.1"
+    sonic-boom "^3.7.0"
+    thread-stream "^2.0.0"
+
+pino@^8.17.2:
+  version "8.17.2"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-8.17.2.tgz#0ed20175623a69d31664a1e8a5f85476272224be"
+  integrity sha512-LA6qKgeDMLr2ux2y/YiUt47EfgQ+S9LznBWOJdN3q1dx2sv0ziDLUBeVpyVv17TEcGCBuWf0zNtg3M5m1NhhWQ==
+  dependencies:
+    atomic-sleep "^1.0.0"
+    fast-redact "^3.1.1"
+    on-exit-leak-free "^2.1.0"
+    pino-abstract-transport v1.1.0
+    pino-std-serializers "^6.0.0"
+    process-warning "^3.0.0"
     quick-format-unescaped "^4.0.3"
     real-require "^0.2.0"
     safe-stable-stringify "^2.3.1"
@@ -6396,6 +6438,11 @@ process-warning@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-2.2.0.tgz#008ec76b579820a8e5c35d81960525ca64feb626"
   integrity sha512-/1WZ8+VQjR6avWOgHeEPd7SDQmFQ1B5mC1eRXsCm5TarlNmx/wCsa5GEaxGm05BORRtyG/Ex/3xq3TuRvq57qg==
+
+process-warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-3.0.0.tgz#96e5b88884187a1dce6f5c3166d611132058710b"
+  integrity sha512-mqn0kFRl0EoqhnL0GQ0veqFHyIN1yig9RHh/InzORTUiZHFRAur+aMtRkELNwGs9aNwKS6tg/An4NYBPGwvtzQ==
 
 process@^0.11.10:
   version "0.11.10"
@@ -7461,6 +7508,11 @@ ts-retry-promise@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ts-retry-promise/-/ts-retry-promise-0.7.1.tgz#176d6eee6415f07b6c7c286d3657355e284a6906"
   integrity sha512-NhHOCZ2AQORvH42hOPO5UZxShlcuiRtm7P2jIq2L2RY3PBxw2mLnUsEdHrIslVBFya1v5aZmrR55lWkzo13LrQ==
+
+ts-retry-promise@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/ts-retry-promise/-/ts-retry-promise-0.8.0.tgz#0a0c57b510827d5630da4b0c47f36b55b83a49e3"
+  integrity sha512-elI/GkojPANBikPaMWQnk4T/bOJ6tq/hqXyQRmhfC9PAD6MoHmXIXK7KilJrlpx47VAKCGcmBrTeK5dHk6YAYg==
 
 tsconfck@^3.0.0:
   version "3.0.0"
