@@ -3,7 +3,7 @@
   "description": "Salesforce CLI plugin to generate types for development",
   "version": "1.0.0",
   "dependencies": {
-    "@oclif/core": "^3.11.0",
+    "@oclif/core": "^3.18.2",
     "@salesforce/core": "^6",
     "@salesforce/sf-plugins-core": "^5.0.5",
     "got": "^14.0.0"
